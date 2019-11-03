@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pomDemoTest.DropDownInPomTest">
+      <class name="pomDemoTest.ClickOnsubmenuTest">
         <methods>
-          <include name="slectFromDropDown"/>
           <include name="setup"/>
+          <include name="clickonSubmenus"/>
         </methods>
-      </class> <!-- pomDemoTest.DropDownInPomTest -->
+      </class> <!-- pomDemoTest.ClickOnsubmenuTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

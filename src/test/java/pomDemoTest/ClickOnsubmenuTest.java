@@ -28,8 +28,6 @@ public class ClickOnsubmenuTest
 	{
 		submenu=new ClickOnSubmenu(driver);
 		submenu.clickOnSubMenus();
-		
-		
 	}
 
 }
