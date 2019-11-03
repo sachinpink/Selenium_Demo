@@ -7,27 +7,28 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import pomDemo.DropDownInPOM;
+import pomDemo.ClickOnSubmenu;
 
-public class DropDownInPomTest 
+public class ClickOnsubmenuTest 
 {
 	public WebDriver driver;
-	public  DropDownInPOM drp;
+	ClickOnSubmenu submenu;
+
 	
 	@BeforeMethod
 	public void setup()
 	{
-		driver=new FirefoxDriver();
+		driver= new FirefoxDriver();
+		driver.get("https://www.toolsqa.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().deleteAllCookies();
-		driver.get("https://www.toolsqa.com/automation-practice-form/");
 	}
 	
 	@Test
-	public void slectFromDropDown()
+	public void clickonSubmenus()
 	{
-		drp=new DropDownInPOM(driver);
-		drp.selectOptionFromDropdown("Africa");
+		submenu=new ClickOnSubmenu(driver);
+		submenu.clickOnSubMenus();
+		
 		
 	}
 
