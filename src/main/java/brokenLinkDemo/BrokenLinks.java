@@ -15,6 +15,7 @@ public class BrokenLinks
 		WebDriver driver= new FirefoxDriver();
 		driver.get("");
 		List<WebElement> links=driver.findElements(By.tagName("a"));
+		System.out.println(links.size());
 		
 
 	}
