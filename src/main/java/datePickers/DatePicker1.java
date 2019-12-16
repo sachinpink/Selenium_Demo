@@ -42,7 +42,7 @@ public class DatePicker1 {
 		Thread.sleep(3000);
 		
 		// clicking on day e.g. 15
-		driver.findElement(By.xpath("//div[@id='datepickers-container']/div[1]/div/div/div[2]/div[contains(text(),'"+day+"')]")).click();
+		//driver.findElement(By.xpath("//div[@id='datepickers-container']/div[1]/div/div/div[2]/div[contains(text(),'"+day+"')]")).click();
 		
 		
 		
